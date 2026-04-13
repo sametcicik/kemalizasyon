@@ -378,7 +378,7 @@ const BC = {
   'Rare Holo':'b-rare-holo','Holo Rare':'b-holo-rare',
   'Ultra Rare':'b-ultra-rare','Special Art':'b-special-art','Special':'b-special'
 };
-const IMG_DIR = "imgs/";
+const IMG_DIR = "";
 
 const parseP = v => v ? parseFloat(v.replace(/[$,]/g,'')) : 0;
 const byPrice = [...CARDS].sort((a,b) => parseP(b.ungraded) - parseP(a.ungraded));
